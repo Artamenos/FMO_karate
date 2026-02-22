@@ -1,0 +1,121 @@
+
+:root {
+    --pure-white: #ffffff;
+    --border-light: #edf2f7;
+    --text-dark: #ffffff;
+    --text-medium: rgb(255, 255, 255);
+    --text-light: #000000;
+    --accent-red: #d64545;
+    --accent-red-soft: #fee;
+    --accent-blue: #2b6f9e;
+}
+
+/* Заголовок страницы */
+.faq-page__title {
+    color: var(--text-dark) !important;
+    font-weight: 300 !important;
+}
+
+.faq-page__title::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: var(--accent-red);
+    margin: 1rem auto 0;
+    opacity: 0.5;
+}
+
+.faq-page__subtitle {
+    color: var(--text-light) !important;
+}
+
+/* Карточки вопросов */
+.faq-item {
+    background-color: var(--pure-white) !important;
+    border: 1px solid var(--border-light) !important;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.faq-item:hover {
+    border-color: #d0d8e0 !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+}
+
+.faq-item__header {
+    background-color: var(--pure-white) !important;
+    padding: 1.2rem 1.5rem !important;
+    cursor: pointer;
+}
+
+.faq-item__header:hover {
+    background-color: var(--light-bg) !important;
+}
+
+.faq-item__question {
+    color: var(--text-dark) !important;
+    font-weight: 500 !important;
+    font-size: 1.1rem !important;
+}
+
+.faq-item__icon {
+    color: var(--accent-red) !important;
+}
+
+.faq-item__content {
+    background-color: var(--light-bg) !important;
+    border-top: 1px solid var(--border-light) !important;
+    padding: 1.5rem !important;
+    color: var(--text-medium) !important;
+    line-height: 1.7;
+}
+
+.faq-item__content a {
+    color: var(--accent-blue) !important;
+}
+
+.faq-item__content.is-hidden {
+    display: none !important;
+}
+
+/* Футер (если нужно сделать светлым) */
+.footer--main {
+    background-color: var(--light-bg) !important;
+    border-top: 1px solid var(--border-light) !important;
+}
+
+.footer__title {
+    color: var(--text-dark) !important;
+}
+
+.footer__link {
+    color: var(--text-medium) !important;
+}
+
+.footer__link:hover {
+    color: var(--accent-red) !important;
+}
+
+.footer__contact-icon {
+    color: var(--accent-red) !important;
+    opacity: 0.7;
+}
+
+.footer__social-button {
+    background-color: var(--pure-white) !important;
+    border: 1px solid var(--border-light) !important;
+    color: var(--text-medium) !important;
+}
+
+.footer__social-button:hover {
+    background-color: var(--accent-red-soft) !important;
+    color: var(--accent-red) !important;
+    border-color: var(--accent-red) !important;
+}
+
+.footer__copyright {
+    color: var(--text-light) !important;
+}

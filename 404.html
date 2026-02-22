@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | Страница не найдена</title>
+    
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Пользовательские стили -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar header__navbar container" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand header__brand">
+                <a class="navbar-item header__logo" href="index.html">
+                    <img src="assets/images/logo-karate.svg" alt="Karate MF" class="header__logo-img">
+                    <span class="header__logo-text has-text-weight-bold">Karate MF</span>
+                </a>
+                
+                <button class="button navbar-burger header__burger" aria-label="menu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            
+            <div class="navbar-menu header__menu">
+                <div class="navbar-end header__nav">
+                    <a href="index.html" class="navbar-item header__nav-link">Главная</a>
+                    <a href="index.html#about" class="navbar-item header__nav-link">О нас</a>
+                    <a href="index.html#trainers" class="navbar-item header__nav-link">Тренеры</a>
+                    <a href="index.html#news" class="navbar-item header__nav-link">Новости</a>
+                    <a href="index.html#shop" class="navbar-item header__nav-link">Магазин</a>
+                    <a href="index.html#booking" class="navbar-item header__nav-link">Запись</a>
+                    <a href="faq.html" class="navbar-item header__nav-link">FAQ</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero is-fullheight-with-navbar error-page">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                
+                <div class="error-page__icon">
+                    <span class="icon is-large has-text-grey-light">
+                        <i class="fas fa-dharmachakra fa-5x"></i>
+                    </span>
+                </div>
+                
+                <h1 class="error-page__title title is-1 has-text-grey-light">404</h1>
+                <h2 class="error-page__subtitle title is-3">Страница не найдена</h2>
+                
+                <div class="error-page__message content is-medium has-text-grey">
+                    <p>
+                        Возможно, эта страница была перемещена или никогда не существовала.<br>
+                        Но, как говорят в карате: «Падая, поднимайся сильнее».
+                    </p>
+                </div>
+                
+                <div class="error-page__actions buttons are-large is-centered">
+                    <a href="index.html" class="button is-primary is-light">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span>На главную</span>
+                    </a>
+                    <a href="faq.html" class="button is-info is-light">
+                        <span class="icon"><i class="fas fa-question-circle"></i></span>
+                        <span>Частые вопросы</span>
+                    </a>
+                </div>
+                
+                <div class="error-page__nav">
+                    <p class="has-text-grey">Или перейдите в один из разделов:</p>
+                    <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+                        <ul>
+                            <li><a href="index.html#about">О нас</a></li>
+                            <li><a href="index.html#trainers">Тренеры</a></li>
+                            <li><a href="index.html#news">Новости</a></li>
+                            <li><a href="index.html#shop">Магазин</a></li>
+                            <li><a href="index.html#booking">Запись</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="error-page__search column is-half is-offset-one-quarter">
+                    <div class="field has-addons">
+                        <div class="control is-expanded">
+                            <input class="input" type="text" placeholder="Поиск по сайту...">
+                        </div>
+                        <div class="control">
+                            <button class="button is-primary">
+                                <span class="icon"><i class="fas fa-search"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer footer--main" id="contact">
+        <div class="footer__content container">
+            <div class="footer__grid columns">
+                <section class="footer__contacts column is-4">
+                    <h4 class="footer__title title is-5 has-text-black">Контакты</h4>
+                    <address class="footer__address">
+                        <p class="footer__contact-item">
+                            <i class="fas fa-map-marker-alt footer__contact-icon footer__contact-icon--red"></i>
+                            <span class="footer__contact-text">г. Мытищи, ул. Олимпийский пр-т, д. 15</span>
+                        </p>
+                        <p class="footer__contact-item">
+                            <i class="fas fa-phone footer__contact-icon footer__contact-icon--blue"></i>
+                            <a href="tel:+74951234567" class="footer__link">+7 (495) 123-45-67</a>
+                        </p>
+                        <p class="footer__contact-item">
+                            <i class="fas fa-envelope footer__contact-icon footer__contact-icon--blue"></i>
+                            <a href="mailto:info@karate-mf.ru" class="footer__link">info@karate-mf.ru</a>
+                        </p>
+                    </address>
+                </section>
+
+                <section class="footer__social column is-4">
+                    <h4 class="footer__title title is-5 has-text-black">Социальные сети</h4>
+                    <p class="footer__social-buttons">
+                        <a href="#" class="button is-medium footer__social-button footer__social-button--red"
+                            aria-label="VK">
+                            <span class="icon">
+                                <i class="fab fa-vk fa-lg"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="button is-medium footer__social-button footer__social-button--blue"
+                            aria-label="Telegram">
+                            <span class="icon">
+                                <i class="fab fa-telegram fa-lg"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="button is-medium footer__social-button footer__social-button--blue"
+                            aria-label="YouTube">
+                            <span class="icon">
+                                <i class="fab fa-youtube fa-lg"></i>
+                            </span>
+                        </a>
+                    </p>
+                </section>
+
+                <section class="footer__location column is-4">
+                    <h4 class="footer__title title is-5 has-text-black">Как добраться</h4>
+                    <p class="footer__location-text">
+                        <i class="fas fa-subway footer__location-icon footer__location-icon--blue"></i>
+                        м. Медведково, далее авт. 419 до остановки «Спортивный комплекс»
+                    </p>
+                </section>
+            </div>
+
+            <hr class="footer__divider has-background-grey-lighter">
+
+            <p class="footer__copyright has-text-centered has-text-grey">
+                <small>© 2025 Карате Федерация Московской области. Все права защищены.</small>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const burger = document.querySelector('.header__burger');
+            const menu = document.querySelector('.header__menu');
+            
+            if (burger && menu) {
+                burger.addEventListener('click', function() {
+                    burger.classList.toggle('is-active');
+                    menu.classList.toggle('is-active');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

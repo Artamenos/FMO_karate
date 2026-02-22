@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Карате Федерация Московской области</title>
+    
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Пользовательские стили -->
+    <link rel="stylesheet" href="assets/css/fa.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar header__navbar container" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand header__brand">
+                <a class="navbar-item header__logo" href="index.html">
+                    <img src="assets/images/logo-karate.svg" alt="Karate MF" class="header__logo-img">
+                    <span class="header__logo-text has-text-weight-bold">Karate MF</span>
+                </a>
+                
+                <button class="button navbar-burger header__burger" aria-label="menu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            
+            <div class="navbar-menu header__menu">
+                <div class="navbar-end header__nav">
+                    <a href="index.html" class="navbar-item header__nav-link">Главная</a>
+                    <a href="index.html#about" class="navbar-item header__nav-link">О нас</a>
+                    <a href="index.html#trainers" class="navbar-item header__nav-link">Тренеры</a>
+                    <a href="index.html#news" class="navbar-item header__nav-link">Новости</a>
+                    <a href="index.html#shop" class="navbar-item header__nav-link">Магазин</a>
+                    <a href="index.html#booking" class="navbar-item header__nav-link">Запись</a>
+                    <a href="faq.html" class="navbar-item header__nav-link has-text-link">FAQ</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section faq-page">
+        <div class="container">
+            <header class="faq-page__header has-text-centered">
+                <h1 class="faq-page__title title is-1">Часто задаваемые вопросы</h1>
+                <p class="faq-page__subtitle subtitle is-5 has-text-grey">
+                    Ответы на самые популярные вопросы о нашей федерации
+                </p>
+            </header>
+            
+            <div class="faq-page__content columns is-centered">
+                <div class="column is-8">
+                    
+                    <div class="faq-item card">
+                        <header class="faq-item__header card-header" onclick="toggleFaq(this)">
+                            <p class="card-header-title">
+                                Как записаться на пробное занятие?
+                            </p>
+                            <button class="card-header-icon">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="faq-item__content card-content is-hidden">
+                            <div class="content">
+                                <p>Для записи на пробное занятие вы можете:</p>
+                                <ul>
+                                    <li>Заполнить форму <a href="index.html#booking">онлайн-записи</a> на главной странице</li>
+                                    <li>Позвонить по телефону: <a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+                                    <li>Написать нам в Telegram или VK (ссылки в футере)</li>
+                                </ul>
+                                <p>Пробное занятие бесплатное для детей и взрослых.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item card">
+                        <header class="faq-item__header card-header" onclick="toggleFaq(this)">
+                            <p class="card-header-title">
+                                Нужна ли своя экипировка для первых тренировок?
+                            </p>
+                            <button class="card-header-icon">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="faq-item__content card-content is-hidden">
+                            <div class="content">
+                                <p>На первые 2-3 тренировки можно приходить в удобной спортивной форме (футболка, шорты/спортивные штаны).</p>
+                                <p>Для дальнейших занятий потребуется:</p>
+                                <ul>
+                                    <li>Кимоно (доги) — можно приобрести в нашем <a href="index.html#shop">магазине</a></li>
+                                    <li>Защита (для соревновательных групп)</li>
+                                </ul>
+                                <p>У нас есть кимоно для аренды на первое время.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item card">
+                        <header class="faq-item__header card-header" onclick="toggleFaq(this)">
+                            <p class="card-header-title">
+                                С какого возраста можно заниматься?
+                            </p>
+                            <button class="card-header-icon">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="faq-item__content card-content is-hidden">
+                            <div class="content">
+                                <p>Мы принимаем детей с 5 лет. Для самых маленьких (5-7 лет) разработана специальная программа с элементами игры и общей физической подготовки.</p>
+                                <p>Для взрослых ограничений по возрасту нет — у нас есть группы для начинающих любого возраста.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item card">
+                        <header class="faq-item__header card-header" onclick="toggleFaq(this)">
+                            <p class="card-header-title">
+                                Как проходят аттестации на пояса?
+                            </p>
+                            <button class="card-header-icon">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="faq-item__content card-content is-hidden">
+                            <div class="content">
+                                <p>Аттестации проводятся 3-4 раза в год (в конце каждого сезона).</p>
+                                <p>Для получения пояса необходимо:</p>
+                                <ul>
+                                    <li>Посещать тренировки не менее 3 месяцев</li>
+                                    <li>Выучить требуемые ката и кихон</li>
+                                    <li>Успешно сдать нормативы перед аттестационной комиссией</li>
+                                </ul>
+                                <p>Стоимость аттестации — 1500 рублей.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item card">
+                        <header class="faq-item__header card-header" onclick="toggleFaq(this)">
+                            <p class="card-header-title">
+                                Есть ли соревнования для любителей?
+                            </p>
+                            <button class="card-header-icon">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="faq-item__content card-content is-hidden">
+                            <div class="content">
+                                <p>Да, мы проводим внутренние турниры и соревнования между клубами Московской области.</p>
+                                <p>Для любителей есть отдельные категории, где не требуется спортивный разряд. Также проводятся фестивали карате и показательные выступления.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item card">
+                        <header class="faq-item__header card-header" onclick="toggleFaq(this)">
+                            <p class="card-header-title">
+                                Можно ли тренироваться, если есть проблемы со здоровьем?
+                            </p>
+                            <button class="card-header-icon">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="faq-item__content card-content is-hidden">
+                            <div class="content">
+                                <p>Перед началом тренировок обязательно проконсультируйтесь с врачом.</p>
+                                <p>У нас есть оздоровительные группы с пониженной нагрузкой. Предупредите тренера о своих особенностях здоровья перед занятием.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer footer--main" id="contact">
+        <div class="footer__content container">
+            <div class="footer__grid columns">
+                <section class="footer__contacts column is-4">
+                    <h4 class="footer__title title is-5 has-text-black">Контакты</h4>
+                    <address class="footer__address">
+                        <p class="footer__contact-item">
+                            <i class="fas fa-map-marker-alt footer__contact-icon footer__contact-icon--red"></i>
+                            <span class="footer__contact-text">г. Мытищи, ул. Олимпийский пр-т, д. 15</span>
+                        </p>
+                        <p class="footer__contact-item">
+                            <i class="fas fa-phone footer__contact-icon footer__contact-icon--blue"></i>
+                            <a href="tel:+74951234567" class="footer__link">+7 (495) 123-45-67</a>
+                        </p>
+                        <p class="footer__contact-item">
+                            <i class="fas fa-envelope footer__contact-icon footer__contact-icon--blue"></i>
+                            <a href="mailto:info@karate-mf.ru" class="footer__link">info@karate-mf.ru</a>
+                        </p>
+                    </address>
+                </section>
+
+                <section class="footer__social column is-4">
+                    <h4 class="footer__title title is-5 has-text-black">Социальные сети</h4>
+                    <p class="footer__social-buttons">
+                        <a href="#" class="button is-medium footer__social-button footer__social-button--red"
+                            aria-label="VK">
+                            <span class="icon">
+                                <i class="fab fa-vk fa-lg"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="button is-medium footer__social-button footer__social-button--blue"
+                            aria-label="Telegram">
+                            <span class="icon">
+                                <i class="fab fa-telegram fa-lg"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="button is-medium footer__social-button footer__social-button--blue"
+                            aria-label="YouTube">
+                            <span class="icon">
+                                <i class="fab fa-youtube fa-lg"></i>
+                            </span>
+                        </a>
+                    </p>
+                </section>
+
+                <section class="footer__location column is-4">
+                    <h4 class="footer__title title is-5 has-text-black">Как добраться</h4>
+                    <p class="footer__location-text">
+                        <i class="fas fa-subway footer__location-icon footer__location-icon--blue"></i>
+                        м. Медведково, далее авт. 419 до остановки «Спортивный комплекс»
+                    </p>
+                </section>
+            </div>
+
+            <hr class="footer__divider has-background-grey-lighter">
+
+            <p class="footer__copyright has-text-centered has-text-grey">
+                <small>© 2025 Карате Федерация Московской области. Все права защищены.</small>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFaq(header) {
+            const item = header.closest('.faq-item');
+            const content = item.querySelector('.faq-item__content');
+            const icon = header.querySelector('.fa-chevron-down');
+            
+            document.querySelectorAll('.faq-item__content').forEach(el => {
+                if (el !== content && !el.classList.contains('is-hidden')) {
+                    el.classList.add('is-hidden');
+                    const otherIcon = el.closest('.faq-item').querySelector('.fa-chevron-down');
+                    if (otherIcon) otherIcon.style.transform = 'rotate(0deg)';
+                }
+            });
+            
+            content.classList.toggle('is-hidden');
+            if (icon) {
+                icon.style.transform = content.classList.contains('is-hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
+            }
+        }
+    </script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const burger = document.querySelector('.header__burger');
+            const menu = document.querySelector('.header__menu');
+            
+            if (burger && menu) {
+                burger.addEventListener('click', function() {
+                    burger.classList.toggle('is-active');
+                    menu.classList.toggle('is-active');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
