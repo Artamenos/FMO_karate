@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карате Федерация Московской области | Bulma</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar header__navbar container" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand header__brand">
+                <a class="navbar-item header__logo" href="/">
+                    <img src="assets/images/logo-karate.svg" alt="Karate MF" class="header__logo-img">
+                    <span class="header__logo-text has-text-weight-bold">Karate MF</span>
+                </a>
+
+                <button class="button navbar-burger header__burger" aria-label="menu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+
+            <div class="navbar-menu header__menu">
+                <div class="navbar-end header__nav">
+                    <a href="#about" class="navbar-item header__nav-link">О нас</a>
+                    <a href="#trainers" class="navbar-item header__nav-link">Тренеры</a>
+                    <a href="#news" class="navbar-item header__nav-link">Новости</a>
+                    <a href="#shop" class="navbar-item header__nav-link">Магазин</a>
+                    <a href="#booking" class="navbar-item header__nav-link">Запись</a>
+                    <a href="#contact" class="navbar-item header__nav-link">Контакты</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero hero--main" id="hero">
+        <div class="hero__overlay">
+            <header class="hero__content container">
+                <h1 class="hero__title title is-1 has-text-white">
+                    Карате Федерация <br>Московской области
+                </h1>
+                <p class="hero__subtitle subtitle is-4 has-text-white-bis">
+                    Воспитание характера через боевые искусства.<br>
+                    Традиции, дисциплина, мастерство.
+                </p>
+                <p class="hero__actions">
+                    <a href="#booking" class="button hero__button hero__button--primary is-large">
+                        <span>Записаться на пробное занятие</span>
+                    </a>
+                </p>
+            </header>
+        </div>
+    </section>
+
+    <section class="section about" id="about">
+        <header class="about__header container">
+            <h2 class="about__title title has-text-centered">О Федерации</h2>
+        </header>
+
+        <div class="about__content columns is-vcentered container">
+            <figure class="about__image column is-6">
+                <img src="assets/img/zag2.jpg" alt="Сборная федерации карате" class="about__img">
+            </figure>
+
+            <article class="about__text-content column is-6 content">
+                <p class="about__text">
+                    Московская областная федерация карате объединяет более 50 клубов и 5000 спортсменов.
+                    Мы развиваем как традиционное карате, так и спортивное направление.
+                </p>
+                <p class="about__text">
+                    Наши воспитанники — победители Первенств ЦФО и Чемпионатов России.
+                </p>
+
+                <ul class="about__features">
+                    <li class="about__feature">
+                        <i class="fas fa-check about__feature-icon about__feature-icon--blue"></i>
+                        <span class="about__feature-text">20+ Заслуженных тренеров</span>
+                    </li>
+                    <li class="about__feature">
+                        <i class="fas fa-check about__feature-icon about__feature-icon--blue"></i>
+                        <span class="about__feature-text">15 залов в Подмосковье</span>
+                    </li>
+                    <li class="about__feature">
+                        <i class="fas fa-check about__feature-icon about__feature-icon--blue"></i>
+                        <span class="about__feature-text">Ежегодные сборы и семинары</span>
+                    </li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section class="section trainers" id="trainers">
+        <header class="trainers__header container">
+            <h2 class="trainers__title title has-text-centered">Наши тренеры</h2>
+            <p class="trainers__subtitle subtitle has-text-centered has-text-grey">
+                Высококвалифицированные специалисты с многолетним опытом подготовки чемпионов
+            </p>
+        </header>
+
+        <div class="trainers__grid columns is-multiline is-centered container">
+            <article class="trainer-card column is-4">
+                <div class="trainer-card__content card">
+                    <figure class="trainer-card__image card-image">
+                        <img src="assets/img/zag1.png" alt="Александр Иванов" class="trainer-card__img">
+                    </figure>
+
+                    <div class="trainer-card__body card-content">
+                        <h3 class="trainer-card__name title is-4">Александр Иванов</h3>
+                        <p class="trainer-card__title subtitle is-6 has-text-primary">Заслуженный тренер России</p>
+
+                        <p class="trainer-card__location">
+                            <i
+                                class="fas fa-map-marker-alt trainer-card__location-icon trainer-card__location-icon--red"></i>
+                            Зал: Мытищи, Олимпийский пр-т, 15
+                        </p>
+
+                        <p class="trainer-card__excerpt has-text-grey">
+                            7 дан.
+                        </p>
+
+                        <a href="#" class="button trainer-card__button trainer-card__button--red is-fullwidth">
+                            <span>Личная страница</span>
+                            <span class="icon"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="trainer-card column is-4">
+                <div class="trainer-card__content card">
+                    <figure class="trainer-card__image card-image">
+                        <img src="assets/img/zag1.png" alt="Елена Петрова" class="trainer-card__img">
+                    </figure>
+
+                    <div class="trainer-card__body card-content">
+                        <h3 class="trainer-card__name title is-4">Елена Петрова</h3>
+                        <p class="trainer-card__title subtitle is-6 has-text-primary">Мастер спорта международного
+                            класса</p>
+
+                        <p class="trainer-card__location">
+                            <i
+                                class="fas fa-map-marker-alt trainer-card__location-icon trainer-card__location-icon--red"></i>
+                            Зал: Королев, ул. Гагарина, 5А
+                        </p>
+
+                        <p class="trainer-card__excerpt has-text-grey">
+                            5 дан.
+                        </p>
+
+                        <a href="#" class="button trainer-card__button trainer-card__button--blue is-fullwidth">
+                            <span>Личная страница</span>
+                            <span class="icon"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="trainer-card column is-4">
+                <div class="trainer-card__content card">
+                    <figure class="trainer-card__image card-image">
+                        <img src="assets/img/zag1.png" alt="Дмитрий Соколов" class="trainer-card__img">
+                    </figure>
+
+                    <div class="trainer-card__body card-content">
+                        <h3 class="trainer-card__name title is-4">Дмитрий Соколов</h3>
+                        <p class="trainer-card__title subtitle is-6 has-text-primary">Мастер спорта России</p>
+
+                        <p class="trainer-card__location">
+                            <i
+                                class="fas fa-map-marker-alt trainer-card__location-icon trainer-card__location-icon--red"></i>
+                            Зал: Балашиха, пр-т Ленина, 42
+                        </p>
+
+                        <p class="trainer-card__excerpt has-text-grey">
+                            4 дан.
+                        </p>
+
+                        <a href="#" class="button trainer-card__button trainer-card__button--red is-fullwidth">
+                            <span>Личная страница</span>
+                            <span class="icon"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <p class="trainers__more has-text-centered">
+            <a href="#" class="button is-large is-outlined trainers__more-link">
+                <span>Весь тренерский состав</span>
+                <span class="icon"><i class="fas fa-users"></i></span>
+            </a>
+        </p>
+    </section>
+
+    <section class="section news" id="news">
+        <header class="news__header container">
+            <h2 class="news__title title has-text-centered">Новости и события</h2>
+        </header>
+
+        <div class="news__grid columns is-multiline container">
+            <article class="news-item column is-4">
+                <div class="news-item__content card">
+                    <figure class="news-item__image card-image">
+                        <img src="assets/img/zag2.jpg" alt="Семинар">
+                    </figure>
+
+                    <div class="news-item__body card-content">
+                        <time class="news-item__date has-text-grey" datetime="2025-03-15">
+                            <i class="far fa-calendar-alt news-item__date-icon news-item__date-icon--red"></i>
+                            15 марта 2025
+                        </time>
+                        <h3 class="news-item__title title is-5">Семинар с заслуженным тренером</h3>
+                        <p class="news-item__excerpt has-text-grey">
+                            Приглашаем всех желающих на семинар по ката и кумитэ.
+                        </p>
+                        <a href="#" class="news-item__link news-item__link--blue">
+                            Подробнее <i class="fas fa-arrow-right fa-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="news-item column is-4">
+                <div class="news-item__content card">
+                    <figure class="news-item__image card-image">
+                        <img src="assets/img/zag2.jpg" alt="Соревнования">
+                    </figure>
+
+                    <div class="news-item__body card-content">
+                        <time class="news-item__date has-text-grey" datetime="2025-04-10">
+                            <i class="far fa-calendar-alt news-item__date-icon news-item__date-icon--red"></i>
+                            10 апреля 2025
+                        </time>
+                        <h3 class="news-item__title title is-5">Первенство Московской области</h3>
+                        <p class="news-item__excerpt has-text-grey">
+                            Открытая регистрация на турнир среди юниоров и взрослых.
+                        </p>
+                        <a href="#" class="news-item__link news-item__link--blue">
+                            Подробнее <i class="fas fa-arrow-right fa-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="news-item column is-4">
+                <div class="news-item__content card">
+                    <figure class="news-item__image card-image">
+                        <img src="assets/img/zag2.jpg" alt="Аттестация">
+                    </figure>
+
+                    <div class="news-item__body card-content">
+                        <time class="news-item__date has-text-grey" datetime="2025-05-20">
+                            <i class="far fa-calendar-alt news-item__date-icon news-item__date-icon--red"></i>
+                            20 мая 2025
+                        </time>
+                        <h3 class="news-item__title title is-5">Аттестация на пояса</h3>
+                        <p class="news-item__excerpt has-text-grey">
+                            Прием нормативов на кю и дан. Приглашаются все желающие.
+                        </p>
+                        <a href="#" class="news-item__link news-item__link--blue">
+                            Подробнее <i class="fas fa-arrow-right fa-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section shop" id="shop">
+        <header class="shop__header container">
+            <h2 class="shop__title title has-text-centered">Экипировка и амуниция</h2>
+            <p class="shop__subtitle subtitle has-text-centered has-text-grey">
+                Всё для карате: от кимоно до защиты
+            </p>
+        </header>
+
+        <div class="shop__grid columns is-multiline container">
+            <article class="shop-item column is-3">
+                <div class="shop-item__content card">
+                    <figure class="shop-item__image card-image">
+                        <img src="assets/img/zag2.jpg" alt="Кимоно для карате">
+                    </figure>
+
+                    <div class="shop-item__body card-content">
+                        <h3 class="shop-item__title title is-6">Кимоно "Shureido"</h3>
+                        <p class="shop-item__price has-text-weight-bold">12 900 ₽</p>
+                        <p class="shop-item__description has-text-grey small">Хлопок 100%, плотность 12 унций</p>
+
+                        <div class="shop-item__actions buttons are-small">
+                            <button class="button shop-item__cart-btn shop-item__cart-btn--red">
+                                <span class="icon"><i class="fas fa-shopping-cart"></i></span>
+                                <span>В корзину</span>
+                            </button>
+                            <button class="button shop-item__view-btn">
+                                <span class="icon"><i class="fas fa-eye"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="shop-item column is-3">
+                <div class="shop-item__content card">
+                    <figure class="shop-item__image card-image">
+                        <img src="assets/img/zag2.jpg" alt="Защита">
+                    </figure>
+
+                    <div class="shop-item__body card-content">
+                        <h3 class="shop-item__title title is-6">Защита жилета</h3>
+                        <p class="shop-item__price has-text-weight-bold">4 500 ₽</p>
+                        <p class="shop-item__description has-text-grey small">Для соревнований, сертифицировано WKF</p>
+
+                        <div class="shop-item__actions buttons are-small">
+                            <button class="button shop-item__cart-btn shop-item__cart-btn--blue">
+                                <span class="icon"><i class="fas fa-shopping-cart"></i></span>
+                                <span>В корзину</span>
+                            </button>
+                            <button class="button shop-item__view-btn">
+                                <span class="icon"><i class="fas fa-eye"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="shop-item column is-3">
+                <div class="shop-item__content card">
+                    <figure class="shop-item__image card-image">
+                        <img src="assets/img/zag2.jpg" alt="Лапы для тренировок">
+                    </figure>
+
+                    <div class="shop-item__body card-content">
+                        <h3 class="shop-item__title title is-6">Лапы тренировочные</h3>
+                        <p class="shop-item__price has-text-weight-bold">3 200 ₽</p>
+                        <p class="shop-item__description has-text-grey small">Кожаные, усиленные</p>
+
+                        <div class="shop-item__actions buttons are-small">
+                            <button class="button shop-item__cart-btn shop-item__cart-btn--red">
+                                <span class="icon"><i class="fas fa-shopping-cart"></i></span>
+                                <span>В корзину</span>
+                            </button>
+                            <button class="button shop-item__view-btn">
+                                <span class="icon"><i class="fas fa-eye"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="shop-item column is-3">
+                <div class="shop-item__content card">
+                    <figure class="shop-item__image card-image">
+                        <img src="assets/img/zag2.jpg" alt="Пояса для карате">
+                    </figure>
+
+                    <div class="shop-item__body card-content">
+                        <h3 class="shop-item__title title is-6">Пояса всех цветов</h3>
+                        <p class="shop-item__price has-text-weight-bold">890 ₽</p>
+                        <p class="shop-item__description has-text-grey small">Хлопок, вышивка</p>
+
+                        <div class="shop-item__actions buttons are-small">
+                            <button class="button shop-item__cart-btn shop-item__cart-btn--blue">
+                                <span class="icon"><i class="fas fa-shopping-cart"></i></span>
+                                <span>В корзину</span>
+                            </button>
+                            <button class="button shop-item__view-btn">
+                                <span class="icon"><i class="fas fa-eye"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <p class="shop__more has-text-centered">
+            <a href="#" class="button is-large is-outlined shop__more-link">
+                <span>Перейти в магазин</span>
+                <span class="icon"><i class="fas fa-store"></i></span>
+            </a>
+        </p>
+    </section>
+
+    <section class="section booking" id="booking">
+        <div class="booking__container container">
+            <header class="booking__header">
+                <h2 class="booking__title title has-text-centered">Онлайн-запись на тренировку</h2>
+                <p class="booking__subtitle subtitle has-text-centered has-text-grey">
+                    Заполните форму и мы подберем удобное время и зал
+                </p>
+            </header>
+
+            <div class="booking__form-container columns is-centered">
+                <div class="column is-half">
+                    <form class="booking__form">
+                        <div class="field">
+                            <label class="label" for="name">Ваше имя</label>
+                            <div class="control has-icons-left">
+                                <input class="input booking__input" type="text" id="name" placeholder="Иван Петров">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label" for="phone">Номер телефона</label>
+                            <div class="control has-icons-left">
+                                <input class="input booking__input" type="tel" id="phone"
+                                    placeholder="+7 (999) 123-45-67">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-phone"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label" for="direction">Направление (необязательно)</label>
+                            <div class="control">
+                                <div class="select is-fullwidth">
+                                    <select id="direction">
+                                        <option>Детские группы (5-12 лет)</option>
+                                        <option>Подростки (13-17 лет)</option>
+                                        <option>Взрослые любители</option>
+                                        <option>Спортивная подготовка</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label" for="location">Предпочтительный зал (необязательно)</label>
+                            <div class="control">
+                                <div class="select is-fullwidth">
+                                    <select id="location">
+                                        <option>Мытищи, Олимпийский пр-т, 15</option>
+                                        <option>Королев, ул. Гагарина, 5А</option>
+                                        <option>Балашиха, пр-т Ленина, 42</option>
+                                        <option>Любой зал</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Я согласен на обработку персональных данных
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="field is-grouped is-grouped-centered">
+                            <div class="control">
+                                <button type="submit" class="button is-primary is-medium is-danger">
+                                    <span class="icon"><i class="fas fa-calendar-check"></i></span>
+                                    <span>Записаться</span>
+                                </button>
+                            </div>
+                            <div class="control">
+                                <button type="reset" class="button is-light is-medium">
+                                    Очистить
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <p class="booking__note has-text-centered has-text-grey-light">
+                        <small>Мы перезвоним в течение часа для подтверждения записи</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer footer--main" id="contact">
+        <div class="footer__content container">
+            <div class="footer__grid columns">
+                <section class="footer__contacts column is-4">
+                    <h4 class="footer__title title is-5 has-text-white">Контакты</h4>
+                    <address class="footer__address">
+                        <p class="footer__contact-item">
+                            <i class="fas fa-map-marker-alt footer__contact-icon footer__contact-icon--red"></i>
+                            <span class="footer__contact-text">г. Мытищи, ул. Олимпийский пр-т, д. 15</span>
+                        </p>
+                        <p class="footer__contact-item">
+                            <i class="fas fa-phone footer__contact-icon footer__contact-icon--blue"></i>
+                            <a href="tel:+74951234567" class="footer__link">+7 (495) 123-45-67</a>
+                        </p>
+                        <p class="footer__contact-item">
+                            <i class="fas fa-envelope footer__contact-icon footer__contact-icon--blue"></i>
+                            <a href="mailto:info@karate-mf.ru" class="footer__link">info@karate-mf.ru</a>
+                        </p>
+                    </address>
+                </section>
+
+                <section class="footer__social column is-4">
+                    <h4 class="footer__title title is-5 has-text-white">Социальные сети</h4>
+                    <p class="footer__social-buttons">
+                        <a href="#" class="button is-medium footer__social-button footer__social-button--red"
+                            aria-label="VK">
+                            <span class="icon">
+                                <i class="fab fa-vk fa-lg"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="button is-medium footer__social-button footer__social-button--blue"
+                            aria-label="Telegram">
+                            <span class="icon">
+                                <i class="fab fa-telegram fa-lg"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="button is-medium footer__social-button footer__social-button--blue"
+                            aria-label="YouTube">
+                            <span class="icon">
+                                <i class="fab fa-youtube fa-lg"></i>
+                            </span>
+                        </a>
+                    </p>
+                </section>
+
+                <section class="footer__location column is-4">
+                    <h4 class="footer__title title is-5 has-text-white">Как добраться</h4>
+                    <p class="footer__location-text">
+                        <i class="fas fa-subway footer__location-icon footer__location-icon--blue"></i>
+                        м. Медведково, далее авт. 419 до остановки «Спортивный комплекс»
+                    </p>
+                </section>
+            </div>
+
+            <hr class="footer__divider has-background-grey-lighter">
+
+            <p class="footer__copyright has-text-centered has-text-grey">
+                <small>© 2025 Карате Федерация Московской области. Все права защищены.</small>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const burger = document.querySelector('.header__burger');
+            const menu = document.querySelector('.header__menu');
+
+            if (burger && menu) {
+                burger.addEventListener('click', function () {
+                    burger.classList.toggle('is-active');
+                    menu.classList.toggle('is-active');
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
+```
